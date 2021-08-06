@@ -1,0 +1,30 @@
+{
+    "name": "webglplayground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "lite-server",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DustinCraig/WebGLPlayground.git"
+    },
+    "author": "Dustin Craig",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DustinCraig/WebGLPlayground/issues"
+    },
+    "homepage": "https://github.com/DustinCraig/WebGLPlayground#readme",
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.2.4",
+        "typescript": "^4.3.5",
+        "webpack": "^5.47.1",
+        "webpack-cli": "^4.7.2"
+    }
+}
